@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad – TecnoAgro</title>
+<meta name="description" content="Política de privacidad de la aplicación TecnoAgro: qué datos recopilamos, para qué los usamos, con quién los compartimos y cómo puedes eliminar tu cuenta.">
+<style>
+  :root {
+    --verde: #2C5E32;
+    --verde-oscuro: #1F4A2A;
+    --fondo: #FAF9F4;
+    --tarjeta: #FFFFFF;
+    --texto: #1A1A1A;
+    --suave: #5B6472;
+    --borde: #E5E7EB;
+    --resalte: #FFF3A3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --verde: #86CC91;
+      --verde-oscuro: #1F4A2A;
+      --fondo: #121712;
+      --tarjeta: #1A211A;
+      --texto: #ECEFEA;
+      --suave: #9AA39A;
+      --borde: #2A332A;
+      --resalte: #5C5200;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+  header.cabecera {
+    background: #1F4A2A;
+    color: #fff;
+    padding: 40px 20px 36px;
+  }
+  .contenedor { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+  header .contenedor { padding: 0; }
+  .marca { font-size: 15px; letter-spacing: .08em; text-transform: uppercase; opacity: .85; margin: 0 0 6px; }
+  .marca b { color: #86CC91; }
+  header h1 { margin: 0 0 8px; font-size: clamp(26px, 5vw, 36px); line-height: 1.2; }
+  header p.fecha { margin: 0; opacity: .85; font-size: 14.5px; }
+  main { padding-top: 28px; padding-bottom: 56px; }
+  .intro { font-size: 17px; }
+  nav.indice {
+    background: var(--tarjeta);
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    padding: 16px 22px;
+    margin: 24px 0 8px;
+  }
+  nav.indice strong { display: block; margin-bottom: 6px; }
+  nav.indice ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 32px; }
+  nav.indice li { break-inside: avoid; padding: 2px 0; }
+  nav.indice a { color: var(--verde); text-decoration: none; }
+  nav.indice a:hover { text-decoration: underline; }
+  @media (max-width: 560px) { nav.indice ol { columns: 1; } }
+  section { padding-top: 12px; scroll-margin-top: 16px; }
+  h2 { font-size: 22px; line-height: 1.3; margin: 32px 0 10px; color: var(--verde); }
+  h3 { font-size: 17px; margin: 20px 0 6px; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--verde); }
+  mark { background: var(--resalte); color: inherit; padding: 0 4px; border-radius: 4px; }
+  .tabla { overflow-x: auto; margin: 12px 0 16px; border: 1px solid var(--borde); border-radius: 12px; background: var(--tarjeta); }
+  table { border-collapse: collapse; width: 100%; min-width: 560px; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 11px 14px; border-bottom: 1px solid var(--borde); }
+  th { font-size: 13.5px; text-transform: uppercase; letter-spacing: .04em; color: var(--suave); background: rgba(127,127,127,.08); }
+  tr:last-child td { border-bottom: 0; }
+  .aviso {
+    background: var(--tarjeta);
+    border: 1px solid var(--borde);
+    border-left: 4px solid var(--verde);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin: 14px 0;
+  }
+  .aviso p:last-child { margin-bottom: 0; }
+  footer { border-top: 1px solid var(--borde); color: var(--suave); font-size: 14px; padding: 22px 0 40px; }
+</style>
+</head>
+<body>
+
+<header class="cabecera">
+  <div class="contenedor">
+    <p class="marca">Tecno<b>Agro</b></p>
+    <h1>Política de privacidad</h1>
+    <p class="fecha">Última actualización: 20 de noviembre de 2026</p>
+  </div>
+</header>
+
+<main class="contenedor">
+
+  <p class="intro">
+    Esta política explica qué datos personales recoge la aplicación móvil <strong>TecnoAgro</strong> (en adelante, “la aplicación”),
+    para qué los usamos, con quién los compartimos y qué derechos tienes sobre ellos. Al crear una cuenta y aceptar esta política,
+    autorizas el tratamiento de tus datos en los términos aquí descritos.
+  </p>
+
+  <nav class="indice" aria-label="Contenido">
+    <strong>Contenido</strong>
+    <ol>
+      <li><a href="#responsable">Quién es el responsable</a></li>
+      <li><a href="#datos">Datos que recopilamos</a></li>
+      <li><a href="#usos">Para qué usamos tus datos</a></li>
+      <li><a href="#terceros">Con quién los compartimos</a></li>
+      <li><a href="#permisos">Permisos de la aplicación</a></li>
+      <li><a href="#conservacion">Cuánto tiempo los conservamos</a></li>
+      <li><a href="#seguridad">Seguridad</a></li>
+      <li><a href="#derechos">Tus derechos</a></li>
+      <li><a href="#eliminar-cuenta">Eliminar tu cuenta y tus datos</a></li>
+      <li><a href="#menores">Menores de edad</a></li>
+      <li><a href="#transferencias">Servidores fuera de Colombia</a></li>
+      <li><a href="#cambios">Cambios en esta política</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <section id="responsable">
+    <h2>1. Quién es el responsable</h2>
+    <p>
+      Los responsable del tratamiento de tus datos personales son <mark>Juan Carlos Rivera Torrez y Juan Esteban Torres Gonzalez</mark>,
+      con domicilio en <mark> Suaza - Huila - Colombia</mark>, que ofrece la aplicación TecnoAgro.
+      Puedes escribirnos a <mark>juancarlosriveratorrez18@gmail.com o juantorresgonzalez5931@gmail.com</mark>.
+    </p>
+  </section>
+
+  <section id="datos">
+    <h2>2. Datos que recopilamos</h2>
+    <p>Solo pedimos los datos necesarios para que la aplicación funcione. Estos son los que recopilamos y por qué:</p>
+
+    <div class="tabla">
+      <table>
+        <thead>
+          <tr><th>Dato</th><th>Para qué lo usamos</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Nombre completo</td><td>Crear tu cuenta y saludarte dentro de la aplicación.</td></tr>
+          <tr><td>Correo electrónico</td><td>Iniciar sesión, enviarte el código para recuperar tu contraseña y contactarte sobre tu cuenta.</td></tr>
+          <tr><td>Teléfono</td><td>Contactarte sobre tu cuenta o tus pedidos.</td></tr>
+          <tr><td>Fecha de nacimiento</td><td>Confirmar que eres mayor de edad al registrarte.</td></tr>
+          <tr><td>Contraseña</td><td>Proteger tu cuenta. La guardamos cifrada: nosotros no podemos verla.</td></tr>
+          <tr><td>Rol de la cuenta (usuario o administrador)</td><td>Mostrarte las opciones que corresponden a tu tipo de cuenta.</td></tr>
+          <tr><td>Datos de tu cuenta de Google (solo si eliges “Continuar con Google”)</td><td>Tu nombre, tu correo y un identificador que Google nos entrega para verificar que la cuenta es tuya. No recibimos tu contraseña de Google.</td></tr>
+          <tr><td>Mensajes que escribes al asesor inteligente</td><td>Generar respuestas a tus consultas sobre productos y cultivos.</td></tr>
+          <tr><td>Fotos de productos (solo administradores)</td><td>Publicar los productos en el catálogo.</td></tr>
+          <tr><td>Datos técnicos básicos (por ejemplo, dirección IP y registros de errores)</td><td>Mantener el servicio seguro y corregir fallas. Los generan automáticamente nuestros servidores al atender las solicitudes de la aplicación.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p><strong>Lo que no recopilamos:</strong> no accedemos a tu ubicación, a tus contactos, a tus mensajes de texto ni a tus llamadas. No usamos servicios de publicidad ni vendemos tus datos.</p>
+  </section>
+
+  <section id="usos">
+    <h2>3. Para qué usamos tus datos</h2>
+    <ul>
+      <li>Crear y administrar tu cuenta, y permitirte iniciar sesión.</li>
+      <li>Enviarte el código de verificación cuando olvides tu contraseña.</li>
+      <li>Mostrarte el catálogo de productos, tu carrito y atender tus pedidos.</li>
+      <li>Responder tus consultas mediante el asesor inteligente.</li>
+      <li>Mantener la seguridad de la aplicación y prevenir usos indebidos.</li>
+      <li>Mejorar la aplicación y atender tus solicitudes de soporte.</li>
+      <li>Cumplir obligaciones legales.</li>
+    </ul>
+  </section>
+
+  <section id="terceros">
+    <h2>4. Con quién los compartimos</h2>
+    <p>
+      No vendemos ni alquilamos tus datos. Usamos proveedores de servicios que nos ayudan a operar la aplicación y que solo reciben
+      lo necesario para prestar su servicio:
+    </p>
+    <ul>
+      <li><strong>Supabase:</strong> almacenamiento de la base de datos (cuentas, productos, pedidos).</li>
+      <li><strong>Google:</strong> inicio de sesión con Google, si decides usarlo.</li>
+      <li><strong>Servicio de envío de correos:</strong> para enviarte el código de recuperación de contraseña.</li>
+      <li><strong>Proveedor de inteligencia artificial:</strong> procesa los mensajes que escribes al asesor para generar las respuestas.</li>
+    </ul>
+    <p>
+      También podemos entregar información si una autoridad competente nos lo exige conforme a la ley.
+      Cada proveedor trata los datos según sus propias políticas de privacidad.
+    </p>
+    <div class="aviso">
+      <p><strong>Importante:</strong> no escribas al asesor inteligente información personal sensible (como documentos de identidad o datos bancarios). Sus respuestas son orientativas y no reemplazan la recomendación de un profesional agrónomo.</p>
+    </div>
+  </section>
+
+  <section id="permisos">
+    <h2>5. Permisos de la aplicación</h2>
+    <ul>
+      <li><strong>Internet:</strong> necesario para iniciar sesión, ver el catálogo y usar el asesor.</li>
+      <li><strong>Cámara y galería de fotos:</strong> solo se usan cuando un administrador agrega la foto de un producto. La aplicación no accede a tus fotos sin que tú elijas una.</li>
+    </ul>
+  </section>
+
+  <section id="conservacion">
+    <h2>6. Cuánto tiempo los conservamos</h2>
+    <p>
+      Conservamos tus datos mientras tu cuenta esté activa y durante el tiempo necesario para cumplir obligaciones legales.
+      Si solicitas eliminar tu cuenta, borraremos tus datos personales en un plazo máximo de <mark>30 días</mark>,
+      salvo los que la ley nos obligue a conservar.
+    </p>
+  </section>
+
+  <section id="seguridad">
+    <h2>7. Seguridad</h2>
+    <p>
+      Guardamos las contraseñas cifradas y aplicamos medidas técnicas y organizativas razonables para proteger tus datos contra
+      accesos no autorizados, pérdida o alteración. Ningún sistema es completamente seguro, por eso te recomendamos usar una
+      contraseña propia y no compartirla con nadie.
+    </p>
+  </section>
+
+  <section id="derechos">
+    <h2>8. Tus derechos</h2>
+    <p>De acuerdo con la Ley 1581 de 2012 de Colombia (protección de datos personales), tienes derecho a:</p>
+    <ul>
+      <li>Conocer, actualizar y rectificar tus datos.</li>
+      <li>Solicitar prueba de la autorización que nos diste.</li>
+      <li>Ser informado sobre el uso que damos a tus datos.</li>
+      <li>Revocar tu autorización y solicitar la supresión de tus datos.</li>
+      <li>Presentar quejas ante la Superintendencia de Industria y Comercio (SIC).</li>
+    </ul>
+    <p>Para ejercer estos derechos escríbenos a <mark>juancarlosriveratorrez18@gmail.com o juantorresgonzalez5931@gmail.com</mark>. Responderemos tu solicitud en los plazos que establece la ley.</p>
+  </section>
+
+  <section id="eliminar-cuenta">
+    <h2>9. Eliminar tu cuenta y tus datos</h2>
+    <p>Puedes pedir que eliminemos tu cuenta y los datos asociados en cualquier momento:</p>
+    <ol>
+      <li>Escribe a <mark>juancarlosriveratorrez18@gmail.com o juantorresgonzalez5931@gmail.com</mark> desde el correo con el que te registraste.</li>
+      <li>Usa como asunto <strong>“Eliminar mi cuenta de TecnoAgro”</strong> e indica tu nombre y tu correo registrado.</li>
+      <li>Verificaremos que la solicitud es tuya y eliminaremos tu cuenta y tus datos personales en un plazo máximo de <mark>30 días</mark>. Te confirmaremos por correo cuando esté listo.</li>
+    </ol>
+    <p>
+      Se eliminan tu nombre, correo, teléfono, contraseña y demás datos de tu cuenta. Solo conservaremos la información
+      que una norma legal nos obligue a guardar, y únicamente por el tiempo que la ley exija.
+    </p>
+  </section>
+
+  <section id="menores">
+    <h2>10. Menores de edad</h2>
+    <p>
+      TecnoAgro no está dirigida a menores de 18 años y no recopilamos intencionalmente sus datos. Si crees que un menor se ha
+      registrado, escríbenos a <mark>juancarlosriveratorrez18@gmail.com o juantorresgonzalez5931@gmail.com</mark> y eliminaremos la cuenta.
+    </p>
+  </section>
+
+  <section id="transferencias">
+    <h2>11. Servidores fuera de Colombia</h2>
+    <p>
+      Algunos de nuestros proveedores pueden almacenar o procesar datos en servidores ubicados fuera de Colombia.
+      En esos casos, exigimos que protejan tus datos con medidas de seguridad adecuadas.
+    </p>
+  </section>
+
+  <section id="cambios">
+    <h2>12. Cambios en esta política</h2>
+    <p>
+      Podemos actualizar esta política. La fecha de “Última actualización” de arriba indica la versión vigente. Si los cambios son
+      importantes, te lo avisaremos en la aplicación.
+    </p>
+  </section>
+
+  <section id="contacto">
+    <h2>13. Contacto</h2>
+    <p>
+      Si tienes preguntas sobre esta política o sobre tus datos personales, escríbenos a <mark>juancarlosriveratorrez18@gmail.com o juantorresgonzalez5931@gmail.com</mark>.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="contenedor">© 2026 TecnoAgro. Todos los derechos reservados.</div>
+</footer>
+
+</body>
+</html>
